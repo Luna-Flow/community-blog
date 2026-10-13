@@ -4,3 +4,14 @@ publish
 node_modules
 pnpm-lock.yaml
 package-lock.json
+
+# AI agent / assistant local state (never track)
+.claude/
+.codex/
+.codex-tmp/
+.cursor/
+.gemini/
+.kiro/
+.windsurf/
+.aider*
+CLAUDE.local.md
